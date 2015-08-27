@@ -1,0 +1,21 @@
+{
+  "name": "Melvin.js",
+  "version": "0.0.2",
+  "authors": [
+    "Lupu Gabriel <lupugabriel1@gmail.com>"
+  ],
+  "private": false,
+  "dependencies": {
+    "requirejs": "2.1.x",
+    "underscore": "1.8.x",
+    "jquery": "2.1.x",
+    "backbone": "1.2.x",
+    "backbone.marionette": "2.4.x",
+    "bootstrap": "3.3.x",
+    "melvinjs": "https://github.com/lupugabriel1/melvinjs.git"
+  },
+  "resolutions": {
+    "backbone": "1.2.x",
+    "underscore": ">=1.5.0"
+  }
+}
