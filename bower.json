@@ -12,7 +12,7 @@
     "backbone": "1.2.x",
     "backbone.marionette": "2.4.x",
     "bootstrap": "3.3.x",
-    "melvinjs": "https://github.com/lupugabriel1/melvinjs.git"
+    "melvinjs": "https://github.com/lupugabriel1/melvinjs.git#v0.0.6"
   },
   "resolutions": {
     "backbone": "1.2.x",
