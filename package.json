@@ -10,6 +10,6 @@
         "grunt-melvinjs" : "https://github.com/lupugabriel1/grunt-melvinjs.git#v0.0.5"
     },
     "scripts": {
-        "start": "npm install && bower install"
+        "start": "npm install && bower install && python -m SimpleHTTPServer"
     }
 }
