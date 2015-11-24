@@ -1,13 +1,13 @@
 {
     "name": "melvinjs-sample",
     "description": "Melvin.js Sample Application",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "repository": "https://github.com/lupugabriel1/melvinjs-sample.git",
     "author": "Gabriel Lupu <lupugabriel1@gmail.com>",
     "license": "MIT",
     "dependencies" : {
         "grunt" : "0.4.x",
-        "grunt-melvinjs" : "https://github.com/lupugabriel1/grunt-melvinjs.git#v0.0.5"
+        "grunt-melvinjs" : "https://github.com/lupugabriel1/grunt-melvinjs.git#v0.0.6"
     },
     "scripts": {
         "start": "npm install && bower install && python -m SimpleHTTPServer"

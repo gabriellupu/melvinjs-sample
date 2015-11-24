@@ -1,2 +1,2 @@
 # Melvin.js
-## The perfect SPA Framework
+## The perfect SPA Framework Boilerplate
