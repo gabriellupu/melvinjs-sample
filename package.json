@@ -3,13 +3,13 @@
     "description": "Melvin.js Sample Application",
     "version": "0.0.6",
     "repository": "https://github.com/lupugabriel1/melvinjs-sample.git",
-    "author": "Gabriel Lupu <lupugabriel1@gmail.com>",
+    "author": "Gabriel Lupu <gabriel.lupu@codegile.com>",
     "license": "MIT",
     "dependencies" : {
         "grunt" : "0.4.x",
-        "grunt-melvinjs" : "https://github.com/lupugabriel1/grunt-melvinjs.git#v0.0.6"
+        "grunt-melvinjs" : "file:/Users/glupu/git/melvinjs/grunt-melvinjs"
     },
     "scripts": {
-        "start": "npm install && bower install && python -m SimpleHTTPServer"
+        "start": "npm install && bower install"
     }
 }

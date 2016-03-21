@@ -1,2 +1,63 @@
-h1.page-title Hello, <%- model.name %>
-p This is my custom Melvin.js App <%- getNumber() %> and <%- number %>
+h1.page-title <%- model.title %>
+.article-author
+    span.profile-picture
+        img.img-circle(src!="<%= model.author.profilePicture %>")
+    span.author-name <%- model.author.name %> on&nbsp;
+    span.artcile-date
+        i <%- model.date %>
+section
+    .row
+        .col-md-8.col-md-offset-2
+            .main-picture
+                img.article-image.img-thumbnail(src!="<%= model.image %>")
+    br
+    p <%- model.paragraph %>
+
+    // ------------ Bio section
+
+    .row
+        .col-md-8.col-md-offset-2
+            .author-details
+                .media
+                    .media-left
+                        a(href="http://google.com")
+                            img.media-object.author-picture.img-circle(src!="<%= model.author.profilePicture %>")
+                    .media-body
+                        h4.media-heading <%- model.author.name %>
+                        p.author-bio <%- model.author.bio %>
+
+    // ------------ Comments section
+
+    .row.comments-section
+        .col-md-10.col-md-offset-1
+            .media
+                .media-left
+                    a(href="google.com")
+                        img.media-object.user-picture.img-rounded(src!="<%= model.comments[0].user.profilePicture %>")
+                .media-body
+                    h4.media-heading <%- model.comments[0].user.name %>
+                    small.text-muted
+                        span.glyphicon.glyphicon-time
+                        | &nbsp;<%- model.comments[0].date %>
+                    p.user-comment <%- model.comments[0].comment %>
+                    .media
+                        .media-left
+                            a(href="google.com")
+                                img.media-object.user-picture.img-rounded(src!="<%= model.comments[0].reply[0].user.profilePicture %>")
+                        .media-body
+                            h4.media-heading <%- model.comments[0].reply[0].user.name %>
+                            small.text-muted
+                                span.glyphicon.glyphicon-time
+                                | &nbsp;<%- model.comments[0].reply[0].date %>
+                            p.user-comment <%- model.comments[0].reply[0].comment %>
+
+            .media
+                .media-left
+                    a(href="google.com")
+                        img.media-object.user-picture.img-rounded(src!="<%= model.comments[1].user.profilePicture %>")
+                .media-body
+                    h4.media-heading <%- model.comments[1].user.name %>
+                    small.text-muted
+                        span.glyphicon.glyphicon-time
+                        | &nbsp;<%- model.comments[1].date %>
+                    p.user-comment <%- model.comments[1].comment %>

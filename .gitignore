@@ -1,6 +1,8 @@
-bower_components
-node_modules
-tmp
-compiled
-index.html
+www/bower_components/
+node_modules/
+tmp/
+compiled/
+index.html/
+www/
+
 *.log

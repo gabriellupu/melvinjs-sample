@@ -1,12 +1,12 @@
 {
-  "name": "Melvin.js",
+  "name": "Melvin.js Sample App",
   "version": "0.0.6",
   "authors": [
-    "Lupu Gabriel <lupugabriel1@gmail.com>"
+    "Gabriel Lupu <gabriel.lupu@codegile.com>"
   ],
   "private": false,
   "dependencies": {
-    "melvinjs": "https://github.com/lupugabriel1/melvinjs.git#v0.0.6",
+    "melvinjs": "../melvinjs#master",
     "bootstrap": "3.3.x"
   }
 }

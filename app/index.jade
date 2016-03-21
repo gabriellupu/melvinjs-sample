@@ -2,7 +2,7 @@
     This file extends core html layout it provides you access to the <html>, <head> and <body> via blocks.
     Change html or head only if you know what you're doing
 
-extends ../bower_components/melvinjs/templates/index
+extends ../www/bower_components/melvinjs/templates/index
 
 block body
     //
@@ -15,7 +15,9 @@ block body
         ex: #content, #footer, #left-nav, etc.
         app.rootView.content.show(new MyContentView())
         app.rootView.footer.show(new MyFooter())
-
-    #content
-        h1 Welcome to Melvinjs app
-        a(href="#home") Go home
+    .row
+        .col-md-8.col-md-offset-2
+            #content
+                h1 Welcome to Melvinjs app
+                a(href="#home") Go home
+    .row#footer

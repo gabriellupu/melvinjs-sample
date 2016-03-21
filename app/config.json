@@ -1,0 +1,14 @@
+/**
+ * Patch requirejs configuration ( http://requirejs.org/docs/api.html#config ).
+ * Melvin provides already a set of configuration in the library, this set of configs will extend the initial ones.
+ * It's recommended to check the existing paths/shims before editing this file.
+ */
+
+{
+  "requirejs": {
+    "paths": {
+    },
+    "shim": {
+    }
+  }
+}
