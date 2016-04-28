@@ -6,7 +6,7 @@
   ],
   "private": false,
   "dependencies": {
-    "melvinjs": "../melvinjs#master",
+    "melvinjs": "https://github.com/lupugabriel1/melvinjs.git#master",
     "bootstrap": "3.3.x"
   }
 }
