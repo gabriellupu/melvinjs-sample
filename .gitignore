@@ -6,3 +6,11 @@ index.html/
 www/
 
 *.log
+.idea/.name
+.idea/jsLibraryMappings.xml
+.idea/melvinjs-sample.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries/melvinjs_sample_node_modules.xml
