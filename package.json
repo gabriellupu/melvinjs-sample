@@ -6,8 +6,13 @@
     "author": "Gabriel Lupu <gabriel.lupu@codegile.com>",
     "license": "MIT",
     "dependencies" : {
+        "melvinjs": "https://github.com/lupugabriel1/melvinjs.git#master"
+    },
+    "devDependencies": {
         "grunt" : "0.4.x",
-        "grunt-melvinjs" : "https://github.com/lupugabriel1/grunt-melvinjs.git"
+        "grunt-melvinjs" : "https://github.com/lupugabriel1/grunt-melvinjs.git",
+        "http-proxy": "^1.15.1",
+        "node-static": "0.7.x"
     },
     "scripts": {
         "start": "npm install && bower install"
