@@ -5,10 +5,9 @@
  */
 define(function(require, exports, module) {
    var Melvin = require('melvin');
-   var Layout = require('modules/app/views/layout');
 
    var MyApp = Melvin.Application.extend({
-      rootView: new Layout()
+      region: '#content'
    });
 
    module.exports = new MyApp();
