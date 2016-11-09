@@ -9,15 +9,9 @@ module.exports = function(grunt) {
      */
     grunt.extendConfig({
         clean: {
-            www_dev: ['www/*', '!www/bower_components/**']
+            www_dev: ['www/*']
         }
     });
 
     grunt.registerTask('default', ['clean:www_dev', 'melvinjs:dev']);
-
-
-    /**
-     * Production task - optimizes modules, minify the resources
-     */
-    grunt.registerTask('production', ['melvinjs:production']);
 };

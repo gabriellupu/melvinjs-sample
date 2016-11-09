@@ -8,11 +8,11 @@ define(function(require, exports, module) {
         home: function () {
             var article = new Article();
 
-            article.fetch().then(function(){
+            //article.fetch().then(function(){
                 app.showView(new HomeLayout({
                     model: article
                 }));
-            });
+            //});
         }
     };
 });

@@ -1,8 +1,8 @@
 {
   "name": "melvinjs-sample",
   "description": "Melvin.js Sample Application",
-  "version": "0.0.6",
-  "repository": "https://github.com/lupugabriel1/melvinjs-sample.git",
+  "version": "0.0.7",
+  "repository": "https://github.com/gabriellupu/melvinjs-sample.git",
   "author": "Gabriel Lupu <gabriel.lupu@codegile.com>",
   "license": "MIT",
   "dependencies": {
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "grunt": "0.4.x",
-    "grunt-melvinjs" : "https://github.com/gabriellupu/grunt-melvinjs.git#master",
+    "grunt-melvinjs" : "https://github.com/gabriellupu/grunt-melvinjs.git",
     "http-proxy": "^1.15.1",
     "node-static": "0.7.x"
   },

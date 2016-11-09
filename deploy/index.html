@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="app.js" type="text/javascript" data-main="app/main"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body><!--Here you can define all the main regions of your app configurable in custom/modules/app/views/layout
+
+By default, a #content region is provided for the root view
+You can change this by adding / removing how many regions you want to use later using the application's
+rootView layout:
+
+ex: #content, #footer, #left-nav, etc.
+app.rootView.content.show(new MyContentView())
+app.rootView.footer.show(new MyFooter())-->
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div id="content"><h1>Welcome to Melvinjs app</h1><a href="#home">Go home</a></div>
+    </div>
+</div>
+<div id="footer" class="row"></div>
+</body>
+</html>
