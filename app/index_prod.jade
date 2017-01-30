@@ -1,0 +1,22 @@
+//
+    Generates Index HTML for production
+    Useful when need production scripts (like GoogleAnalytics) inserted.
+extends ../node_modules/melvinjs/templates/index_prod
+
+block body
+    //
+        Here you can define all the main regions of your app configurable in custom/modules/app/views/layout
+
+        By default, a #content region is provided for the root view
+        You can change this by adding / removing how many regions you want to use later using the application's
+        rootView layout:
+
+        ex: #content, #footer, #left-nav, etc.
+        app.rootView.content.show(new MyContentView())
+        app.rootView.footer.show(new MyFooter())
+    .row
+        .col-md-8.col-md-offset-2
+            #content
+                h1 Welcome to Melvinjs app
+                a(href="#home") Go home
+    .row#footer

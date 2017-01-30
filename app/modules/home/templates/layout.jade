@@ -5,8 +5,8 @@ h1.page-title <%- model.title %>
     span.author-name <%- model.author.name %> on&nbsp;
     span.artcile-date
         i <%- model.date %>
-section
-    .row
+section 
+    .row.test
         .col-md-8.col-md-offset-2
             .main-picture
                 img.article-image.img-thumbnail(src!="<%= model.image %>")
