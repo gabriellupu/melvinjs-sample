@@ -13,7 +13,6 @@
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-melvinjs" : "0.3.x",
-    "http-proxy": "^1.15.1",
     "node-static": "0.7.x"
   },
   "scripts": {
