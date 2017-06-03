@@ -6,9 +6,9 @@ Node.js ^0.10.x, Grunt.js
 
     npm start
     
-Now run at the root of the app your favorite static server. For instance, if you have python installed you can run
+Run the built-in HTTP server located at the root of the project:
 
-    python -m SimpleHTTPServer
+    node server.js
     
 # Application Deployment
 ## Local deployment

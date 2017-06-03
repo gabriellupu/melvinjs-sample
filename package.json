@@ -1,7 +1,7 @@
 {
   "name": "melvinjs-sample",
   "description": "Melvin.js Sample Application",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/gabriellupu/melvinjs-sample.git",
   "author": "Gabriel Lupu <gabriel.lupu@codegile.com>",
   "license": "MIT",
