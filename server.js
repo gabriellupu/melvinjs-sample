@@ -1,8 +1,6 @@
 var http = require('http');
 var staticServer = require('node-static');
 
-var proxy = httpProxy.createProxyServer();
-
 var fileServer = new staticServer.Server('./www');
 var fileServerNode = new staticServer.Server('./');
 
